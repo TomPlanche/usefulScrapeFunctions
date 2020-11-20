@@ -19,7 +19,7 @@ def remove_html_tag(texte):
     return texte
 
 
-def find_thing_in_tag(texte, what_we_are_looking_4):
+def find_thing_in_tag(texte, what_we_are_looking_4: str):
     """
     This function returns the content of a choosen attribute (class, id, href...).
     :param texte: str. The full HTML tag.
